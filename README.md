@@ -163,8 +163,8 @@ overlay_heatmap(heatmap, original_image)
 risk_levels = ["No DR", "Mild", "Moderate", "Severe", "Proliferative DR"]
 print(f"Predicted risk level: {risk_levels[predicted_class]}")
 
-
-6️⃣ Deploy as a Web App
+
+6️ Deploy as a Web App
 from flask import Flask, request, render_template
 import tensorflow as tf
 import numpy as np
